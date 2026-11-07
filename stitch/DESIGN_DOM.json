@@ -1,0 +1,169 @@
+{
+  "generatedAt": "2026-11-07T14:08:41.075Z",
+  "screenCount": 1,
+  "screens": {
+    "82fa341887c24ed896ccbbc301d7ec62": {
+      "screenId": "82fa341887c24ed896ccbbc301d7ec62",
+      "materialSymbolsRequired": false,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "flex-col",
+          "classes": [
+            "flex",
+            "flex-col",
+            "sm:flex-row",
+            "items-start",
+            "sm:items-center",
+            "justify-between",
+            "gap-4",
+            "pb-6",
+            "border-b",
+            "border-slate-800/80"
+          ],
+          "childCount": 4
+        },
+        {
+          "tag": "section",
+          "layout": "grid",
+          "classes": [
+            "grid",
+            "grid-cols-1",
+            "md:grid-cols-3",
+            "gap-6",
+            "my-6"
+          ],
+          "childCount": 12
+        },
+        {
+          "tag": "main",
+          "layout": "flex-col",
+          "classes": [
+            "flex-1",
+            "flex",
+            "flex-col",
+            "bg-slate-900/60",
+            "rounded-3xl",
+            "border",
+            "border-slate-800/80",
+            "p-6",
+            "lg:p-8",
+            "relative"
+          ],
+          "childCount": 8
+        },
+        {
+          "tag": "footer",
+          "layout": "flex-row",
+          "classes": [
+            "pt-6",
+            "mt-4",
+            "flex",
+            "items-center",
+            "justify-between",
+            "text-xs",
+            "text-slate-400"
+          ],
+          "childCount": 2
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Start game",
+          "classes": [
+            "w-full",
+            "sm:w-auto",
+            "inline-flex",
+            "items-center",
+            "justify-center",
+            "px-6",
+            "py-3",
+            "rounded-xl",
+            "bg-blue-600",
+            "hover:bg-blue-500",
+            "active:bg-blue-700",
+            "text-white",
+            "font-semibold",
+            "text-sm",
+            "shadow-lg",
+            "shadow-blue-600/30",
+            "transition-all",
+            "duration-150",
+            "cursor-pointer"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Canvas Game Arcade Client",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Route: /play",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [],
+      "cards": [],
+      "icons": [],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {},
+      "fonts": [],
+      "layoutHints": {
+        "gridCols": 1,
+        "flexDirection": "col",
+        "gap": "4"
+      },
+      "behaviorContract": [
+        {
+          "kind": "button",
+          "label": "Start game",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Canvas Game Arcade Client",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Route: /play",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "button",
+          "label": "Canvas Game Arcade Client",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Route: /play",
+          "icon": null,
+          "active": false
+        }
+      ],
+      "title": "Play screen - Canvas Game"
+    }
+  }
+}

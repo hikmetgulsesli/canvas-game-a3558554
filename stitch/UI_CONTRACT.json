@@ -1,0 +1,27 @@
+[
+  {
+    "screenId": "82fa341887c24ed896ccbbc301d7ec62",
+    "screenTitle": "Play screen - Canvas Game",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "button",
+        "label": "Start game",
+        "line": 80
+      }
+    ],
+    "navigation": [],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Start game",
+        "line": 80
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 1,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  }
+]
